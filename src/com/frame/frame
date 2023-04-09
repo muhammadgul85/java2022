@@ -1,0 +1,40 @@
+Day 20:
+
+
+------------------------
+Frame Handling
+------------------------
+
+			frames
+
+		frame		iframe
+		<=HTML3		>=HTML4
+
+
+for swithing to a frame from window or from frame ?
+
+1)frame(int) ==> int means index value should be calculated manually
+
+index starts from 0 , from top to bottom of DOM
+2)frame(String) ==> string can be id or name attribute value
+3)frame(WebElement)
+
+4)defaultContent()
+
+5)parentFrame()
+
+?????????????????????
+Assignment
+??????????????????????
+
+1)in  https://www.angelfire.com/super/badwebs/
+
+click "Here's another example " link
+
+2) in https://demo.guru99.com/test/guru99home/
+
+click on "Jmeter made easy" image
+
+->switch to newly opened window 
+-> scrolll to the bottom 
+-> verify the Top Tutorials values present on screen
